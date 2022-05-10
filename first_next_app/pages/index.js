@@ -1,5 +1,7 @@
-function HomePage() {
-    return <div>Welcome to Next.js!</div>
+import ProductList  from "../components/ProductList"
+
+export default   function HomePage() {
+    return <ProductList/>
   }
   
-  export default HomePage
+  
