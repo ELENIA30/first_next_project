@@ -1,4 +1,4 @@
-import styles from "./index.module.css";
+import styles from "./style.module.scss";
 
 export default function Product({ productData }) {
   const { title, image, price, description } = productData;
